@@ -26,10 +26,10 @@ const env = new Environment(
 TSP({
   env,
   antsPerGeneration: 5,
-  pheromoneDegradation: 0.5,
+  pheromoneDegradation: 0.4,
   basePheromone: 0.5,
-  maxGenerations: 5000,
-  alpha: 1,
+  maxGenerations: 4999,
+  alpha: 1.2,
   beta: 1.5,
   Q: 4,
   viewPlot: 'best',
